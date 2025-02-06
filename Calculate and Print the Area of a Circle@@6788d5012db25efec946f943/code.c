@@ -1,10 +1,7 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
-int main() {
-    printf("%s", welcome());
-    return 0;
+int main(){
+    float r,a;
+    scanf("%f\n",&r);
+    a=3.14*r*r;
+    printf("Area: %.2f",a);
 }
