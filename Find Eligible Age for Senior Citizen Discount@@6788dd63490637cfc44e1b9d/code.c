@@ -1,14 +1,11 @@
 #include <stdio.h>
 int main(){
-    int x,y;
-    scanf("%d %d",&x,&y);
-    if(x>y){
-        printf("First");
-    }
-    else if(x<y){
-        printf("Second");
+    int x;
+    scanf("%d",&x);
+    if(x>=60){
+        printf("Eligible");
     }
     else{
-        printf("Equal");
-    }
+        printf("Not Eligible");
+}
 }
