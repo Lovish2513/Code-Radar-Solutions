@@ -2,10 +2,10 @@
 int main(){
     int x,y;
     scanf("%d %d",&x,&y);
-    if (x>=18 && y==1){
-        printf("Eligible");
+    if((x>=0 && y>=0) || (x<0 && y<0)){
+        printf("Same Sign");
     }
     else{
-    printf("Not Eligible");
-    }
+        printf("Different Sign");
+}
 }
