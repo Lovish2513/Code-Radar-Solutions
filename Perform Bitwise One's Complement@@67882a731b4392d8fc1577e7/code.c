@@ -4,8 +4,10 @@ int main() {
     int num;
     scanf("%d", &num);
     
-    int result = ~num;
-    printf("%d\n", result);
-    
+    if (num & 1) {
+        printf("Set\n");
+    } else {
+        printf("Not Set\n");
+    }
     return 0;
 }
